@@ -1,0 +1,13 @@
+// For UserList
+.list-group-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  &:hover {
+    background-color: #f8f9fa;
+  }
+  &.active {
+    background-color: #e9ecef;
+  }
+}

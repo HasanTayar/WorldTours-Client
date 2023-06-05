@@ -1,0 +1,15 @@
+.chatbot-toggle {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  cursor: pointer;
+  z-index: 1001; 
+  width: 40px; 
+  height: 40px; 
+
+}
+
+.chatbot-toggle-opened {
+  right: 20px;
+  bottom: 55vh;
+}
