@@ -2,7 +2,7 @@ import axios from "axios";
 import { setToken, getToken, destroyToken } from "./token";
 import { getUserLocation } from "./Google/locationService";
 import {  useNavigate } from "react-router-dom";
-const API = "https://worldtours-backend.onrender.com//users";
+const API = "https://worldtours-backend.onrender.com/users";
 
 // Validates user login and sets a token if successful
 export const checkUserDetails = async (email, password, setError) => {
